@@ -3,7 +3,7 @@
 🧙‍♀️ The name is inspired by [repairing charm](https://harrypotter.fandom.com/zh/wiki/%E4%BF%AE%E5%A4%8D%E5%92%92?variant=zh) in Harry Potter.
 
 
-<a href=""><img src="https://img.shields.io/badge/ArXiv--brightgreen"></a> 
+<a href="https://arxiv.org/pdf/2405.18525"><img src="https://img.shields.io/badge/ArXiv-2405.18525-brightgreen"></a> 
 <a href="https://reparo2024.github.io/"><img src="https://img.shields.io/badge/Demo-REPARO-purple"></a>
 <a href="https://cloud.tsinghua.edu.cn/f/f26dbb5ba50d4e12b5d9/?dl=1"><img src="https://img.shields.io/badge/Dataset-GSO_20-blue"></a>
 
@@ -36,5 +36,13 @@
 ## Citation
 
 ```
+@misc{han2024reparo,
+      title={REPARO: Compositional 3D Assets Generation with Differentiable 3D Layout Alignment}, 
+      author={Haonan Han and Rui Yang and Huan Liao and Jiankai Xing and Zunnan Xu and Xiaoming Yu and Junwei Zha and Xiu Li and Wanhua Li},
+      year={2024},
+      eprint={2405.18525},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 
 ```
