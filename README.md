@@ -30,15 +30,7 @@ accuracy, and overall scene coherence.
 
 
 ## Acknowledgement
-☀️ We are truly indebted to the following outstanding open source work upon which we have based our work.
-- https://github.com/facebookresearch/segment-anything
-- https://github.com/dreamgaussian/dreamgaussian
-- https://github.com/xxlong0/Wonder3D
-- https://github.com/3DTopia/OpenLRM
-- https://github.com/jkxing/DROT
-- https://github.com/VAST-AI-Research/TripoSR
-- https://github.com/lkwq007/stablediffusion-infinity
-- https://github.com/NVlabs/nvdiffrast
+☀️ We are truly indebted to the following outstanding open source work upon which we have based our work: [SAM](https://github.com/facebookresearch/segment-anything), [DreamGaussian](https://github.com/dreamgaussian/dreamgaussian), [Wonder3D](https://github.com/xxlong0/Wonder3D), [OpenLRM](https://github.com/3DTopia/OpenLRM), [DROT](https://github.com/jkxing/DROT), [TripoSR](https://github.com/VAST-AI-Research/TripoSR), [stablediffusion-infinity](https://github.com/lkwq007/stablediffusion-infinity), and [nvdiffrast](https://github.com/NVlabs/nvdiffrast).
 
 ## Citation
 
