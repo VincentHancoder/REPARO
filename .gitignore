@@ -1,0 +1,9 @@
+*.obj
+*.zip
+data
+results
+viz
+*.tar.gz
+dpt-dinov2-base-kitti
+debug
+experiments/furniture/_config

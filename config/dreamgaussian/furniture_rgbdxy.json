@@ -1,0 +1,31 @@
+{
+    "task_name"         :   "furniture_rgbdxy",
+    "data_dir"          :   "data/furniture",
+    "data_info_file"    :   "data/furniture/meta_info.json",
+    "save_dir"          :   "results",
+    "loss"              :   {
+        "enable_depth_loss":true,
+        "depth_loss_weight":1.0
+    },
+    "bbox"              :   1.0,
+    "resolution"        :   [256,256],
+    "simple"            :   true,
+    "renderer"          :   {"light_power":0.5,"background":"white","shading":true},
+    "setting"           :   {"Niter":500,"optimizer":"Adam","learning_rate":0.02,"view_per_iter":2,"decay":0.999},
+    "method"            :   ["our"],
+    "laplacian_loss"    :   false,
+    "matching"          :   {"matcher":"Sinkhorn","matching_interval":5},
+    "debug"             :   true,
+    "show"              :   false,
+    "view"              :   {
+        "type":"perspective",
+        "num":1,
+        "direction":"manual", 
+        "dist":2.0, 
+        "fov":49.1,
+        "znear":0.1,
+        "zfar":100.0,
+        "center":[0.0,0.0,0.0],
+        "position":[[0.0,0.0,2.0]]
+    }
+}

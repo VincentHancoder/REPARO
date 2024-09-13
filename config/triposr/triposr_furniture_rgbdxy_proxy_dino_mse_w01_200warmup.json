@@ -1,0 +1,34 @@
+{
+    "task_name"         :   "triposr_furniture_rgbdxy_proxy_dino_mse_w01_200warmup",
+    "data_dir"          :   "data/furniture_triposr",
+    "data_info_file"    :   "data/furniture_triposr/meta_info.json",
+    "save_dir"          :   "results/test",
+    "loss"              :   {
+        "enable_depth_proxy":true,
+        "enable_dino_loss":true,
+        "dino_loss_weight":0.1,
+        "feat_loss_mse":true,
+        "warmup_iter":200
+    },
+    "bbox"              :   1.0,
+    "resolution"        :   [256,256],
+    "simple"            :   true,
+    "renderer"          :   {"light_power":0.5,"background":"white","shading":true},
+    "setting"           :   {"Niter":500,"optimizer":"Adam","learning_rate":0.02,"view_per_iter":2,"decay":0.999},
+    "method"            :   ["our"],
+    "laplacian_loss"    :   false,
+    "matching"          :   {"matcher":"Sinkhorn","matching_interval":5},
+    "debug"             :   true,
+    "show"              :   false,
+    "view"              :   {
+        "type":"perspective",
+        "num":1,
+        "direction":"manual", 
+        "dist":2.0, 
+        "fov":49.1,
+        "znear":0.1,
+        "zfar":100.0,
+        "center":[0.0,0.0,0.0],
+        "position":[[0.0,0.0,2.0]]
+    }
+}
