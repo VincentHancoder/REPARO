@@ -31,6 +31,9 @@
 <a href="https://reparo2024.github.io/"><img src="https://img.shields.io/badge/Demo-REPARO-purple"></a>&nbsp; &nbsp;  &nbsp;
 <a href="https://cloud.tsinghua.edu.cn/f/f26dbb5ba50d4e12b5d9/?dl=1"><img src="https://img.shields.io/badge/Dataset-GSO_20-blue"></a>&nbsp; &nbsp;  &nbsp;
 <a href="https://cloud.tsinghua.edu.cn/f/75385ce44766451fba89/?dl=1"><img src="https://img.shields.io/badge/Dataset-Synthetic-orange"></a>
+    </br> 
+
+![Example Image](assets/pipeline.jpg)
     </br>
     REPARO is a novel approach for compositional 3D asset generation from
     single images. It employs a two-step process: first, it extracts individual
@@ -39,9 +42,7 @@
     transport-based long-range appearance loss term and high-level semantic loss term
     in the differentiable rendering, REPARO can effectively recover the layout of 3D
     assets. The proposed method can significantly enhance object independence, detail
-    accuracy, and overall scene coherence. 
-
-![Example Image](assets/pipeline.jpg)
+    accuracy, and overall scene coherence.
   </p>
     </p>
 <!-- <div align="center"> -->
