@@ -1,23 +1,52 @@
-# REPARO: Compositional 3D Assets Generation with Differentiable 3D Layout Alignment
+<p align="center">
 
-🧙‍♀️ The name is inspired by [repairing charm](https://harrypotter.fandom.com/zh/wiki/%E4%BF%AE%E5%A4%8D%E5%92%92?variant=zh) in Harry Potter.
-
-
-<a href="https://arxiv.org/pdf/2405.18525"><img src="https://img.shields.io/badge/ArXiv-2405.18525-brightgreen"></a> 
-<a href="https://reparo2024.github.io/"><img src="https://img.shields.io/badge/Demo-REPARO-purple"></a>
-<a href="https://cloud.tsinghua.edu.cn/f/f26dbb5ba50d4e12b5d9/?dl=1"><img src="https://img.shields.io/badge/Dataset-GSO_20-blue"></a>
+  <h2 align="center">REPARO: Compositional 3D Assets Generation with Differentiable 3D Layout Alignment </h2>
+  <p align="center">
+    <strong>Haonan Han</strong></a><sup>1*</sup>
+    · 
+    <strong>Rui Yang</strong></a><sup>2*</sup>
+    · 
+    <strong>Huan Liao</strong></a><sup>1*</sup>
+    ·
+    <strong>Jiankai Xing</strong></a><sup>1</sup>
+    ·
+    <strong>Zunnan Xu</strong></a><sup>1</sup>
+    ·
+    <br>
+    <strong>Xiaoming Yu</strong></a><sup>3</sup>
+    ·
+    <strong>Junwei Zha</strong></a><sup>3</sup>
+    ·
+    <strong>Xiu Li</strong></a><sup>1†</sup>
+    ·
+    <strong>Wanhua Li</strong></a><sup>4†</sup>
+    ·
+    <br>
+    <sup>1</sup>Tsinghua University  &nbsp;&nbsp;&nbsp; <sup>2</sup>The University of Hong Kong &nbsp;&nbsp;&nbsp;
+    <br>
+    <sup>3</sup>Tencent Meeting &nbsp;&nbsp;&nbsp; <sup>4</sup>Harvard University
+    <br>
+    </br>
+        <a href="https://arxiv.org/pdf/2405.18525"><img src="https://img.shields.io/badge/ArXiv-2405.18525-brightgreen"></a> &nbsp; &nbsp;  &nbsp;
+<a href="https://reparo2024.github.io/"><img src="https://img.shields.io/badge/Demo-REPARO-purple"></a>&nbsp; &nbsp;  &nbsp;
+<a href="https://cloud.tsinghua.edu.cn/f/f26dbb5ba50d4e12b5d9/?dl=1"><img src="https://img.shields.io/badge/Dataset-GSO_20-blue"></a>&nbsp; &nbsp;  &nbsp;
 <a href="https://cloud.tsinghua.edu.cn/f/75385ce44766451fba89/?dl=1"><img src="https://img.shields.io/badge/Dataset-Synthetic-orange"></a>
-
-REPARO is a novel approach for compositional 3D asset generation from
-single images. It employs a two-step process: first, it extracts individual
-objects from the scene and reconstructs their 3D meshes using off-the-shelf imageto-3D models; then, it optimizes the layout of these meshes through differentiable
-rendering techniques, ensuring coherent scene composition. By integrating optimal
-transport-based long-range appearance loss term and high-level semantic loss term
-in the differentiable rendering, REPARO can effectively recover the layout of 3D
-assets. The proposed method can significantly enhance object independence, detail
-accuracy, and overall scene coherence. 
+    </br>
+    REPARO is a novel approach for compositional 3D asset generation from
+    single images. It employs a two-step process: first, it extracts individual
+    objects from the scene and reconstructs their 3D meshes using off-the-shelf imageto-3D models; then, it optimizes the layout of these meshes through differentiable
+    rendering techniques, ensuring coherent scene composition. By integrating optimal
+    transport-based long-range appearance loss term and high-level semantic loss term
+    in the differentiable rendering, REPARO can effectively recover the layout of 3D
+    assets. The proposed method can significantly enhance object independence, detail
+    accuracy, and overall scene coherence. 
 
 ![Example Image](assets/pipeline.jpg)
+  </p>
+    </p>
+<!-- <div align="center"> -->
+
+🧙‍♀️ The name is inspired by [repairing charm](https://harrypotter.fandom.com/zh/wiki/%E4%BF%AE%E5%A4%8D%E5%92%92?variant=zh) in Harry Potter.
 
 ## Todo List
 - [x] 🪄 Release on arxiv!
