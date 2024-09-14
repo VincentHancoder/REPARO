@@ -49,6 +49,21 @@
 
 🧙‍♀️ The name is inspired by [repairing charm](https://harrypotter.fandom.com/zh/wiki/%E4%BF%AE%E5%A4%8D%E5%92%92?variant=zh) in Harry Potter.
 
+## Qualitative Demo
+### Synthetic Results
+<p align="center">
+  <img src="assets/taxi.gif" width="30%"/>&nbsp;&nbsp;&nbsp;
+  <img src="assets/tower.gif" width="30%"/>&nbsp;&nbsp;&nbsp;
+  <img src="assets/lego.gif" width="30%"/>
+</p>
+
+### Layout Alignment
+<p align="center">
+  <img src="assets/city_taxi_align.gif" width="30%"/>&nbsp;&nbsp;&nbsp;
+  <img src="assets/tower_align.gif" width="30%"/>&nbsp;&nbsp;&nbsp;
+  <img src="assets/lego_align.gif" width="30%"/>
+</p>
+
 ## Todo List
 - [x] 🪄 Release on arxiv!
 - [x] 🪄 Release demo page!
